@@ -11,3 +11,16 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+## Project Setup Instructions
+1. Before following through this step head over to https://git-scm.com/book/en/v2/Getting-Started-Installing-Git to install git on your local machine
+
+2. After installation, open a terminal and verify that you have successfully installed git by running the command ```git --version```
+
+3. Open a terminal of your choice could be **Command Prompt**, **Windows Powershell**, **Bash** or **ZSH** and  run the command ```git clone git@github.com:ObelusFamily/Anythink-Market-53odz.git``` to clone this repository
+
+4. Ensure that you have both Docker and docker-composer installed on your computer for the next set of steps you will take
+
+5. Navigate into the project directory by running the command ```cd Anythink-Market-53odz```
+
+6. Boot up the local development server by running the command ```docker-compose up``` This will start up all the components of the application from the frontend to the Backend and the database
